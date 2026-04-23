@@ -35,7 +35,7 @@ contenedor.appendChild(teclado);
 contenedor.appendChild(btnIniciar);
 document.body.appendChild(contenedor); 
 
-// Verifica si ganaste o perdiste y muestra las lineas de la palabra
+// ganaste o perdiste
 function condicionGanadora() {
     let mostrarText = "";
     let victoria = true;
@@ -56,7 +56,7 @@ function condicionGanadora() {
 
 
     if (victoria) {
-        estadoJuego.innerText = "Ganaste! La palabra era: " + palabraElegida;
+        estadoJuego.innerText = "Ganaste " + palabraElegida;
         estadoJuego.style.color = "green";
         bloquearTeclado();
     }
