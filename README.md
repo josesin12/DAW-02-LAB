@@ -24,10 +24,6 @@ tu_proyecto/
 1. Construir la imagen de Docker:
 Abre tu terminal en la carpeta raiz y ejecuta:
 
-
-VIDEO DE PRUEBA: https://youtu.be/cxqB5yLorZw?si=4MHtqDJDjkIDSeRT
-
-
 docker build -t lab02-nginx .
 
 2. Ejecutar el contenedor:
@@ -42,3 +38,5 @@ Una vez que el contenedor este corriendo, abre tu navegador y accede a los ejerc
 * Ejercicio 1: http://localhost:8080/lab02/ejercicio1.html 
 * Ejercicio 2: http://localhost:8080/lab02/ejercicio2.html
 * Ejercicio 3: http://localhost:8080/lab02/ejercicio3.html
+
+VIDEO DE PRUEBA: https://youtu.be/cxqB5yLorZw?si=4MHtqDJDjkIDSeRT
