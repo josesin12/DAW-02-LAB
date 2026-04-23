@@ -121,4 +121,3 @@ function ac(){
     p_div1.textContent = "";
     tabla.innerHTML = "";
 }
-
